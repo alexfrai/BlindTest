@@ -1,4 +1,9 @@
 const assert = require('assert') ;
+
+it('add test', (done) => {
+  assert.ok(true);
+  done();
+});
 /*
 let calc = new Calc();
 
