@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title BlindTest Home Page
+    body 
+        h1 Music search 
+        form(method = 'post') 
+            input(type="text",name="userInput" value=userInput)
+            button(type="submit") Chercher
+        p hello
+
+    script(src=process.env.BROWSER_REFRESH_URL)
